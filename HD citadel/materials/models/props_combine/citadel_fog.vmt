@@ -1,0 +1,29 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_combine/Citadel"
+	"$bumpmap"     "Models/props_combine/Citadel_bump"
+	"$surfaceprop" "metal"
+	//"$envmap" "env_cubemap"
+	//"$basealphaenvmapmask" 1
+	"$alpha" 1
+	//"$envmaptint" "[ .75 .75 1 ]"
+	//"$translucent" 0
+	"$nocull" 1
+	//"$envmapmask"	"Models/props_combine/citadel001b_spec"
+
+
+	"$selfillum" "1"
+	"$selfillummask" "Models/props_combine/Citadel_lights"
+
+	
+	"$detail"				"Models/props_combine/Citadel_detail"
+	"$detailscale"			"24"
+	"$detailblendfactor"	"2"
+	"$detailblendmode"		"0"
+	
+	$phong 					1
+	$phongexponent 			0
+	$phongboost 			0	
+	
+	
+}
